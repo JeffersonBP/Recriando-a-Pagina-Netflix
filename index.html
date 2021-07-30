@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--Padrão para pode aceitar caracteres acentuados -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+<!--Responsividade-->
+<link rel="stylesheet" href="style/reponsive.css">
+
+<!-- ARQUIVOS OWL CSS   -->
+<link rel="stylesheet" href="Style/owl.carousel.min.css">
+<link rel="stylesheet" href="Style/owl.theme.default.min.css">
+    <title>Neteflix Clone</title>
+</head>
+<body><!--Vamos dividir nosso cod em div ou header footer que tambem são consideradas DIV tegs que representam caixas -->
+    <header>
+       <div class="container">
+           <h2 class="logo">
+                MANUTENÇÃOFLIX
+           </h2>
+           <nav><!--teg semantica usada para criar menus de navegação-->
+            <a href="#">Industria 4.0</a>
+            <a href="#">Manutenção</a>
+            <a href="#">Automação</a>
+            <a href="#">Treinamentos e Tutoriais </a>
+
+           </nav>
+
+       </div>    
+    </header>
+    <main><!--trata-se de uma div para quem ta desenvolvendo porem para outras ferramentas quando vamos criar o site elas entendem que isto é o conteudo principal-->
+       <div class="filme-principal">
+           <div class="container">
+               <h3 class="titulo">Manutenção de Motores</h3>
+               <p class="descricao"> Aprenda como reealizar a manutenção de motores eletricos WEG. Neste video tutorial você vai aprender todo o procedimento de instalação e manutenção. Este treinamento tem o objetivos de instruir todos os procedimentos de segurança e qualidade exigidos pela Manutençãoflix</p>
+               <div class="botoes">
+                <button role="button" class="botao"> <!--role="button" pois em alguns sistemas o butão pode não randerizar corretamente entao essa função diz para que serve-->
+                    <i class="fas fa-play"></i>
+                    ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao"> 
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+               </div>              
+            </div>                     
+       </div>
+    </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme"> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Capacitor270eletrolitio.PNG" alt="">
+            </div> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Centrifugo Weg 56 2 Polos.PNG" alt="">
+            </div> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Filtro Indutor Comum Uu9.8 7x8mm 10mh Mode Choke Inducto.PNG" alt="">
+            </div> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Gravador Usb Bios Receptor E Notebook +150mil +200mil +clipe.PNG" alt="">
+            </div> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Motor 2 Turbinas Aspirador Águapó Wap Original.PNG" alt="">
+            </div> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Motor Elétrico Monofásico 220 440v Weg 15 Cv Alta Rotação.PNG" alt="">
+            </div> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/nduzido Martelete Bosch Gbh 2-24 Dse 11228.11226 220v.PNG" alt="">
+            </div> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Platinado Motor Weg 56 2.PNG" alt="">
+            </div> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Ventoinha Weg 160 4 Polos C Chaveta E Trava Envio Imediato.PNG" alt="">
+            </div> 
+            <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Filtro Indutor Comum Uu9.8 7x8mm 10mh Mode Choke Inducto.PNG" alt="">
+            </div> <div class="item">
+                <img class="box-filme" src="Img/Catalogo/Cabo Adaptador Conversor 4 P 8 Pinos 20 Cm Fonte Atx.PNG" alt="">
+            </div> 
+
+
+
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/49372be309.js"></script>
+    <script src="Js/owl/jquery.min.js"></script>
+    <script src="Js/owl/owl.carousel.min.js"></script>
+    <script src="Js/owl/setup.js"></script>
+</body>
+</html>
